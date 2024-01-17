@@ -1,0 +1,125 @@
+@media (max-width: 767.98px) {
+  /*============= Home =========*/ 
+  .CountryStats {
+    margin-top: 2rem;
+  }
+  .rightside {
+    width: 100%;
+    margin-left: 0;
+  }
+  .rightside img {
+    height: 350px;
+  }
+  .about-rightside {
+    width: 100%;
+  }
+  .about-rightside img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+  .about-leftside {
+    width: 100%;
+    margin-left: 0;
+  }
+  .title-about {
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+  }
+  .ab-info {
+    padding-top: 2rem;
+  }
+  /*=================/ /-- WhyUs Section --/ /==================*/
+   .wrapper {
+    height: 50vh;
+    margin-top: 3rem;
+  }
+  .card {
+    margin-top: 4rem;
+    width: 200px;
+    height: 300px;
+  }
+  .card__img {
+    margin: 0.5rem 0 0 10rem;
+  }
+  .card__title {
+    margin-top: 3rem;
+    font-size: 25px;
+  }
+  .card__description {
+    font-size: 14px;
+  }
+  /*=================/ /-- Service Section --/ /==================*/
+   .service {
+    margin: 4rem auto 2rem auto;
+  }
+  .box {
+    margin-top: 1rem;
+  }
+  .box-info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box-title {
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+  }
+  .sub-title {
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+  .box-text {
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  .btn {
+    font-size: 14px;
+  }
+  /*=================/ /-- Product Section --/ /==================*/ 
+  .pr-ec {
+    margin: 4rem auto 2rem auto;
+  }
+  .eco {
+    font-size: 40px;
+    margin-top: 1rem;
+  }
+  .product-h {
+    margin: 3rem auto 1rem auto;
+  }
+  .pr {
+    height: 25vh;
+  }
+  .pr-title {
+    font-size: 25px;
+  }
+  .pr-text {
+    font-size: 14px;
+  }
+  /*=================/ /-- Contact Section --/ /==================*/ 
+  .contact {
+    flex-direction: column;
+  }
+  .cont-l {
+    margin-bottom: 3rem;
+  }
+  .c-text {
+    max-width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+  .svg {
+    display: none;
+  }
+  .cont-r {
+    margin-top: 2rem;
+  }
+  .c-text h1 {
+    font-size: 30px;
+  }
+  .c-text p {
+    font-size: 14px;
+  }
+  .cont-r img {
+    margin-top: 1rem;
+  }
+}

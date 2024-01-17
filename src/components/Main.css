@@ -1,0 +1,548 @@
+/*============= Home =========*/
+.CountryStats {
+  /* background-image: url(../image/C-1.png); */
+  background-repeat: no-repeat;
+  background-position: right;
+  backdrop-filter: blur(8.5px);
+  mix-blend-mode: overlay;
+}
+.title-he {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto Slab;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headers {
+  padding-top: 3rem;
+}
+.leftside {
+  padding-top: 2rem;
+}
+.btn-hm {
+  margin-top: 2rem;
+}
+.btn-contact,
+.btn-learn {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: 1px solid whitesmoke;
+  padding: 0.5rem 1.8rem;
+}
+.btn-contact {
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: linear-gradient(97deg, #fff -122.99%, #ff5301 91.35%);
+}
+.btn-learn {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background: transparent;
+  color: #fff;
+}
+.info {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  width: 86%;
+  margin: 1.4rem 0;
+}
+
+.rightside img {
+  width: 100%;
+  height: 650px;
+  flex-shrink: 0;
+  padding-top: 2rem;
+}
+.rightside {
+  width: 100%;
+  margin-left: 4rem;
+}
+.CountryStats {
+  margin-top: 4rem;
+}
+/*=============================*/
+/*=== CLient Count ==*/
+.country-stats {
+  padding: 50px 0;
+  background: #11111b;
+  color: #fff;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #feaa5d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stat-title {
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: Roboto Slab;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(180deg, #fff 0%, #ffd8c8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-description {
+  font-size: 1.2rem;
+  color: #fff;
+  background: linear-gradient(180deg, #fff 0%, #ffd8c8 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 767.98px) {
+  .stat-item {
+    margin-bottom: 30px;
+  }
+}
+
+/*================= Client End ====================*/
+/*=================*/
+/*-- About Section --*/
+/*==================*/
+.about-se {
+  width: 100%;
+}
+.about-se img{
+  width: 100%;
+  height: 100vh;
+}
+.back-img {
+  margin-bottom: -29rem;
+  width: 100%;
+  height: 410px;
+  stroke-width: 1px;
+}
+
+.about-he {
+  text-align: center;
+  margin-top: -18rem;
+}
+
+.about-rightside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 90%;
+}
+
+.about-rightside img {
+  width: 600px;
+  height: 550px;
+  margin-top: 4rem;
+}
+
+.about-leftside {
+  text-align: left;
+  margin-left: 4rem;
+  width: 90%;
+}
+
+.title-about {
+  margin-top: 4rem;
+  margin-bottom: -1rem;
+  font-family: Roboto Slab;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ab-info {
+  padding-top: 5rem;
+  color: #fff;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 85%;
+  line-height: 32px; /* 160% */
+}
+/*=================*/
+/*-- End About Section --*/
+/*==================*/
+/*=================*/
+/*-- WhyUs Section --*/
+/*==================*/
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 70vh;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 5rem;
+  background: url(../image/why.png) no-repeat;
+  background-position: 2px -20px;
+  width: 100%;
+  background-size: 100%;
+}
+
+.card {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.card:nth-child(1) {
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px solid #feaa5d;
+  margin-top: 4rem;
+}
+.card:nth-child(2) {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.card:nth-child(3) {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.card:nth-child(4) {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card__img {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin: 1rem 0 0 14rem;
+  float: right;
+}
+
+.card__body {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title {
+  margin-bottom: 10px;
+  color: #fff;
+  margin-top: 6rem;
+  font-family: Roboto Slab;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card__description {
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27.369px;
+}
+
+/*=================*/
+/*-- Service Section --*/
+/*==================*/
+.service {
+  margin: 8rem auto 2rem auto;
+  width: 100%;
+  background: url(../image/sol.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.se-title h1 {
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: linear-gradient(94deg, #fff 6.12%, #ffdfc8 80.25%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box {
+  transition: transform 0.3s ease-in-out;
+  height: 100%;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box-body {
+  padding: 30px;
+}
+.box-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-title {
+  color: #fff;
+  font-family: Roboto Slab;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.sub-title {
+  color: #fff;
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136%; /* 21.76px */
+  text-transform: capitalize;
+  width: 100%;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.lds-dual-ring:after {
+  content: " ";
+  width: 100%;
+  height: 10vh;
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  transform: translate(-50%, 50%);
+  border-radius: 50%;
+  border: 4px solid rgba(216, 123, 38, 1);
+  border-color: rgba(216, 123, 38, 1) transparent rgba(254, 107, 1, 1)
+    transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.box-info .in-ru {
+  font-family: Archivo;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 62px;
+  color: white;
+  border-radius: 50%;
+  width: 63px;
+  height: 64px;
+  background: radial-gradient(
+    530.24% 219.84% at 57.14% 50.65%,
+    #fd7900 0%,
+    #fe4d01 38.2%,
+    #fea801 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.box-text {
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136%;
+  margin-bottom: 2rem;
+  width: 100%;
+  color: white;
+}
+
+.btn {
+  color: #fe7501;
+  margin-top: -1.5rem;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Archivo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 136%; /* 21.76px */
+  text-transform: capitalize;
+}
+
+.btn i {
+  color: rgba(132, 136, 149, 1);
+}
+.btn:hover {
+  color: #fe7501;
+}
+.box-1 {
+  margin-bottom: 2rem;
+}
+@media (max-width: 767.98px) {
+  .box {
+    margin-bottom: 30px;
+  }
+}
+
+/*=================*/
+/*-- Product Section --*/
+/*==================*/
+.pr-ec {
+  margin: 7rem auto 3rem auto;
+}
+.eco {
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 2rem;
+  color: #fff;
+}
+.product-h {
+  margin: 5rem auto 2rem auto;
+}
+.pr {
+  padding: 10px;
+  margin-bottom: 20px;
+  height: 30vh;
+}
+
+.pr-title {
+  margin-bottom: 10px;
+  color: #fe7501;
+  text-align: center;
+  font-family: Roboto Slab;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pr-text {
+  margin-top: 20px;
+  width: 90%;
+  color: #fff;
+  text-align: center;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+/*=================*/
+/*-- Contact Section --*/
+/*==================*/
+
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.cont-l {
+  flex: 1;
+  position: relative;
+  z-index: 1; 
+}
+
+.c-text {
+  max-width: 50%;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0; 
+}
+
+.cont-r {
+  flex: 1;
+  text-align: center;
+
+}
+.c-text h1 {
+  color: #fe7501;
+  font-family: Roboto Slab;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.c-text p {
+  color: #fff;
+  font-family: Archivo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+
+}
+.cont-r img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+  box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Add any other styles as needed */
